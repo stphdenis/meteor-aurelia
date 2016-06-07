@@ -1,6 +1,6 @@
 Package.describe({
   name: 'sdenis:aurelia',
-  version: '1.0.7',
+  version: '1.0.8',
   // Brief, one-line summary of the package.
   summary: 'This module is just to load Aurelia on Meteor 1.3 using NPM',
   // URL to the Git repository containing the source code for this package.
@@ -12,8 +12,8 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.3');
-  api.use('ecmascript@0.1.6');
-  api.imply('sdenis:static-raw-html@1.0.5');
+  api.use('ecmascript@0.4.3');
+  api.imply('sdenis:static-raw-html@1.0.6');
   api.addFiles('lib/aurelia-init.js');
 });
 
