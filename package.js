@@ -1,6 +1,6 @@
 Package.describe({
   name: 'sdenis:aurelia',
-  version: '1.0.8',
+  version: '1.0.9',
   // Brief, one-line summary of the package.
   summary: 'This module is just to load Aurelia on Meteor 1.3 using NPM',
   // URL to the Git repository containing the source code for this package.
