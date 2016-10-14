@@ -1,5 +1,7 @@
 # meteor-aurelia
 
+###### YOU CAN CONTINUE TO USE THIS PACKAGE BUT YOU HAVE AN ALTERNATIVE USING [skeleton-esnext-webpack](https://github.com/aurelia/skeleton-navigation/tree/master/skeleton-esnext-webpack) OR [skeleton-typescript-webpack](https://github.com/aurelia/skeleton-navigation/tree/master/skeleton-typescript-webpack) FROM AURELIA WITH [meteor-webpack-client](https://www.npmjs.com/package/meteor-webpack-client).
+
 This module is just to load Aurelia on Meteor 1.3 using NPM.
 
 For the static loading of html, we can't use the [`static-html`](https://atmospherejs.com/meteor/static-html) package as it don't compile `<template>` alone. So we use [`sdenis:static-raw-html`](https://atmospherejs.com/sdenis/static-raw-html) in place. It is a fork of [`tsumina:meteor-aurelia`](https://atmospherejs.com/tsumina/meteor-aurelia).
